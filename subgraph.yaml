@@ -8,9 +8,9 @@ dataSources:
     name: Factory
     network: bsc
     source:
-      address: '0x99F366C829D6474385A3697A34951Ab0FE2cBdd2'
+      address: '0x95f9c44fa1585811e1d1a0f59e74174b657b37a5'
       abi: Factory
-      startBlock: 16967396
+      startBlock: 18503409
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: fantom
+    network: bsc
     source:
       abi: Pair
     mapping:
