@@ -6,7 +6,7 @@
   "scripts": {
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
-    "deploy": "graph deploy venerafinance/venera --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ --access-token 78837f7e58644b55ac34577301894c6f"
+    "deploy": "graph deploy venerafinance/venera --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ --access-token 85a67d3ace6f4bb397698ff38f8fbcc4"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "^0.16.0",
